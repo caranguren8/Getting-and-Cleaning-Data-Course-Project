@@ -1,0 +1,14 @@
+"activitylabels", "features", "subjecttest", "xtest", "ytest", "subjecttrain", "xtrain", "ytrain": names assigned to the original data
+
+"subject": name assigned to the union of the train and test data from subjects
+
+"xt", "yt": names assigned to the union of the train and test data from X and Y respectively
+
+"featuresmsd": variable originated from "features" but containing only attributes with the words, mean or std
+
+"xtms": variable originated from "xt" containing only the columns that match the features desired and found on the previous step
+"ytwn": variable originated from "yt" that simply replaces the numbers of it for the corresponding activity
+
+"data": merged data coming from "subject", "ytwn" and "xtms"
+
+"summarizeddata": table that takes "data" and reduces it by finding the average of the variables, stablishing "Subject" and "activity" fixed
